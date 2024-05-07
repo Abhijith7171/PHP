@@ -1,0 +1,51 @@
+div{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 12px;
+    z-index: 1000;
+}
+
+
+body{
+    /* margin: 4%;
+    background-color: black;
+    color: white;
+    font-weight: bolder; */
+    /* background: url(image.png); */
+    /* background-repeat: no-repeat; */
+    /* background-size: contain; */
+}
+
+p{
+    color: green;
+}
+
+
+div input{
+    padding: 4px;
+    width: 60vw;
+    background-color: transparent;
+
+}
+
+form{
+    padding: 12px;
+    margin: auto;
+    height: auto;
+    width: 80vw;
+    /* background-color: lightblue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.submit{
+    cursor: pointer;
+    width: 100px;
+    background-color: white !important;
+    color: black !important;
+    /* padding: 12px; */
+}
+
